@@ -8,7 +8,7 @@
         </div>
     </div>
 </section>
-<!-- BEGIN TRANSPORTATION SECTION -->
+
 <section>
     <div class="container">
         <ul class="nav justify-content-center nav-pills mb-3" id="pills-tab" role="tablist">
