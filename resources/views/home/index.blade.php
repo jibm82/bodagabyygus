@@ -199,12 +199,12 @@
 						<div class="invite neela-style" data-animation-direction="from-left" data-animation-delay="100">
 							<div class="invite_title">
 								<div class="text">
-									Save<small>the</small>Date
+									Jaesy<small>&</small>Jorge
 								</div>
 							</div>
 
 							<div class="invite_info">
-								<h2>Jaesy <small>&</small> Jorge</h2>
+								{{-- <h2>Jaesy <small>&</small> Jorge</h2> --}}
 
 								<div class="uppercase">Los esperamos en la ceremonia religiosa que tendrá lugar el</div>
 								<div class="date">19 de noviembre de 2022<small>05:00 pm</small></div>
