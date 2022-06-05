@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1 class="section-title light">Transporte</h1>
+                <h1 class="section-title light custom-section-title">Transporte</h1>
             </div>
         </div>
     </div>
