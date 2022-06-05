@@ -145,8 +145,7 @@
                                     VUELTA
                                 </h4>
                                 <div class="flex-1 mt-1 mb-3">
-                                    El aeropuerto está a 15 min de cualquier punto de la ciudad de Campeche te recomendamos
-                                    salir a las 7am de hotel o casa
+                                    El aeropuerto está a 20 min de cualquier punto de la ciudad de Campeche.
                                 </div>
                                 <div>
                                     <div class="card flight-card p-2">
@@ -201,7 +200,7 @@
                     </div>
                     <div class="tab-pane fade" id="transportation-option-4" role="tabpanel" aria-labelledby="transportation-option-4-tab">
                         <div class="mt-4 text-center">
-                            El viaje en autobus es de 14hrs saliendo desde CDMX  y saliendo desde Puebla de 12 hrs. (Una sola salida al día).
+                            El viaje en autobus es de 14hrs saliendo desde CDMX  y saliendo desde Puebla de 12 hrs.
                         </div>
                         <div class="text-center">
                             Consulta los horarios - <a href="https://www.ado.com.mx" target="_blank" class="underlined">ado.com.mx</a>
