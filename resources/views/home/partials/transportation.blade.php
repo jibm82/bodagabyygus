@@ -11,35 +11,82 @@
 
 <section>
     <div class="container">
-        <ul class="nav justify-content-center nav-pills mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-home" type="button" role="tab"
-                        aria-controls="pills-home" aria-selected="true">
-                    <i class="fa fa-plane"></i>
-                    CDMX - Campeche
-                </button>
-            </li>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <p class="text-center">
+                    Existen 4 formas de llegar a Campeche,  da click en cada una de ellas para revisar la información
+                </p>
+            </div>
+        </div>
+
+        <ul class="mt-2 nav justify-content-center nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-profile" type="button" role="tab"
-                        aria-controls="pills-profile" aria-selected="false">
+                        data-bs-target="#transportation-option-1" type="button" role="tab"
+                        aria-controls="transportation-option-1" aria-selected="false">
                     <i class="fa fa-plane"></i>
                     <i class="fa fa-bus"></i>
                     CDMX - Mérida
                 </button>
             </li>
             <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#transportation-option-2" type="button" role="tab"
+                        aria-controls="transportation-option-2" aria-selected="true">
+                    <i class="fa fa-plane"></i>
+                    CDMX - Campeche
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
                 <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-contact" type="button" role="tab"
-                        aria-controls="pills-contact" aria-selected="false">
+                        data-bs-target="#transportation-option-3" type="button" role="tab"
+                        aria-controls="transportation-option-3" aria-selected="false">
                     <i class="fa fa-car"></i>
                     Carretera
                 </button>
             </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#transportation-option-4" type="button" role="tab"
+                        aria-controls="transportation-option-4" aria-selected="false">
+                    <i class="fa fa-bus"></i>
+                    Autobus - Línea ADO
+                </button>
+            </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+            <div class="tab-pane fade" id="transportation-option-1" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="row mt-4">
+                    <div class="col col-md-6">
+                        <h4 class="text-center">
+                            <i class="fa fa-plane"></i>
+                        </h4>
+                        <div class="mt-2">
+                            Otra opción para llegar a la ciudad de Campeche, es volando a la ciudad de Mérida,
+                            las siguientes aerolíneas cuentan con vuelos directos: Aeroméxico, VivaAerobus
+                            y Volaris.
+                        </div>
+                    </div>
+                    <div class="col col-md-6 mt-4 mt-md-0">
+                        <h4 class="text-center">
+                            <i class="fa fa-bus"></i>
+                        </h4>
+                        <div class="mt-2">
+                            <div>
+                                Del aeropuerto de Mérida salen camiones directos a la Ciudad de Campeche
+                                por las líneas de autobuses: ADO y OCC.
+                            </div>
+
+                            <div class="mt-2">
+                                El tiempo estimado es de 2hrs 20 min. el costo del camión varia entre $242 y $260,
+                                existen distintas corridas, la última saliendo del aeropuerto es a las 18:30hrs,
+                                verifícalo con el horario de tu vuelo.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade show active" id="transportation-option-2" role="tabpanel"
                     aria-labelledby="pills-home-tab">
                 <div class="row">
                     <div class="col-1 col-md-5 d-flex flex-column">
@@ -146,40 +193,19 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                <div class="row mt-4">
-                    <div class="col col-md-6">
-                        <h4 class="text-center">
-                            <i class="fa fa-plane"></i>
-                        </h4>
-                        <div class="mt-2">
-                            Otra opción para llegar a la ciudad de Campeche, es volando a la ciudad de Mérida,
-                            las siguientes aerolíneas cuentan con vuelos directos: Aeroméxico, VivaAerobus
-                            y Volaris.
-                        </div>
-                    </div>
-                    <div class="col col-md-6 mt-4 mt-md-0">
-                        <h4 class="text-center">
-                            <i class="fa fa-bus"></i>
-                        </h4>
-                        <div class="mt-2">
-                            <div>
-                                Del aeropuerto de Mérida salen camiones directos a la Ciudad de Campeche
-                                por las líneas de autobuses: ADO y OCC.
-                            </div>
-
-                            <div class="mt-2">
-                                El tiempo estimado es de 2hrs 20 min. el costo del camión varia entre $242 y $260,
-                                existen distintas corridas, la última saliendo del aeropuerto es a las 18:30hrs,
-                                verifícalo con el horario de tu vuelo.
-                            </div>
-                        </div>
-                    </div>
+            <div class="tab-pane fade" id="transportation-option-3" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="mt-4 text-center">
+                    Para los que les guste manejar y recorrer nuestro bello México, pueden llegar a Campeche por Autopista,
+                    es un viaje aproximado de 12hrs, dependiendo de las paradas de que hagas, el costo promedio de las
+                    casetas es de $3,500 de ida y otros $3,500 de regreso. De gasolina son entre 2 o 3 tanques dependiendo el auto.
                 </div>
             </div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="tab-pane fade" id="transportation-option-4" role="tabpanel" aria-labelledby="pills-contact-tab">
                 <div class="mt-4 text-center">
-                    Para los que les guste manejar y recorrer nuestro bello México, pueden llegar a Campeche por Autopista, es un viaje aproximado de 12hrs, dependiendo de las paradas de que hagas, el costo promedio de las casetas es de $3,500 de ida y otros $3,500 de regreso. De gasolina son entre 2 o 3 tanques dependiendo el auto.
+                    El viaje en autobus es de 14hrs saliendo desde CDMX  y saliendo desde Puebla de 12 hrs. (Una sola salida al día).
+                </div>
+                <div class="text-center">
+                    Consulta los horarios - <a href="https://www.ado.com.mx" target="_blank" class="underlined">ado.com.mx</a>
                 </div>
             </div>
         </div>

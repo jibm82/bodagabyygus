@@ -266,3 +266,22 @@ h1, h2, h3, h4, h5, h6 {
 .timeline_footer .punchline {
     color: var(--custom-secondary-color);
 }
+
+.timeline-link-wrapper a {
+    color: white;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.hair-and-make-up-option {
+    border: 1px solid;
+    color: currentColor;
+    display: block;
+    font-size: 14px;
+    padding: 4px;
+    text-transform: none;
+}
+
+.underlined {
+    text-decoration: underline;
+}
