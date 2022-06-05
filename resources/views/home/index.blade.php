@@ -228,8 +228,8 @@
         @include('home.partials.weeding-gifts')
         {{-- @include('home.partials.gallery')
         @include('home.partials.testimonials') --}}
-        @include('home.partials.agenda')
         @include('home.partials.blog')
+        @include('home.partials.agenda')
         @include('home.partials.contact')
         @include('home.partials.footer')
 

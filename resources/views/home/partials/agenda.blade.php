@@ -31,5 +31,14 @@
                 <h5>Domingo 20<small>Por definir</small></h5>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+                <p class="text-center">
+                    La información de los  lugares se te proporcionará una vez que hayas realizado tu
+                    confirmación.
+                </p>
+            </div>
+        </div>
     </div>
 </section>
