@@ -1,3 +1,23 @@
+<!-- BEGIN DRESSCODE SECTION -->
+<section id="dress-code" class="parallax-background bg-color-overlay">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                {{-- <h2 class="section-title light mb-0">Código de vestimenta</h2> --}}
+                <h1 class="section-title light my-3 custom-section-title">Código de vestimenta</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
 <section id="loveline">
     <div class="container">
         <div class="row">
@@ -193,3 +213,4 @@
         </div>
     </div>
 </section>
+<!-- END DRESSCODE SECTION -->

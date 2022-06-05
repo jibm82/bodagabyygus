@@ -13,39 +13,37 @@
                     <nav class="navbar">
 
                         <ul class="nav navbar-nav">
-                            <li><a href="#hero">Home</a></li>
+                            <li><a href="#hero">Inicio</a></li>
 
-                            <li class="dropdown">
+                            {{-- <li class="dropdown">
                                 <a href="#about-us" data-toggle="dropdown" data-hover="dropdown">About Us<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#loveline">Loveline</a></li>
                                 </ul>
-                            </li>
+                            </li> --}}
 
                             <li class="dropdown">
-                                <a href="#the-wedding" data-toggle="dropdown" data-hover="dropdown">The Wedding<b class="caret"></b></a>
+                                <a href="#the-wedding" data-toggle="dropdown" data-hover="dropdown">La boda<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#the-wedding">Invite</a></li>
-                                    <li><a href="#location">Location</a></li>
-                                    <li><a href="#bridesmaids">Bridesmaids</a></li>
-                                    <li><a href="#testimonials">Testimonials</a></li>
-                                    <li><a href="#groomsmen">Groomsmen</a></li>
-                                    <li><a href="#giftregistry">Gift Registry</a></li>
-                                    <li class="dropdown-submenu">
-                                        <a href="#">Another Menu</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">Another Menu</a></li>
-                                            <li><a href="#">Another Menu</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="#the-wedding">Invitación</a></li>
+                                    <li><a href="#location">Ceremonia y Recepción</a></li>
+                                    <li><a href="#wedding-details">Agenda</a></li>
+                                    <li><a href="#dress-code">Código de vestimenta</a></li>
                                 </ul>
                             </li>
 
-                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#giftregistry">Mesa de regalos</a></li>
 
-                            <li><a href="#blog">Blog</a></li>
+                            <li class="dropdown">
+                                <a href="#transportation" data-toggle="dropdown" data-hover="dropdown">Campeche<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#transportation">Transporte</a></li>
+                                    <li><a href="#lodging">Hospedaje</a></li>
+                                    <li><a href="#blog">¿Qué hacer?</a></li>
+                                </ul>
+                            </li>
 
-                            <li><a href="#rsvp">RSVP</a></li>
+                            <li><a href="#rsvp">Confirmar Asistencia</a></li>
                         </ul>
 
                         <button id="nav-mobile-btn"><i class="fas fa-bars"></i></button><!-- Mobile menu button -->

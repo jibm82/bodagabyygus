@@ -33,10 +33,9 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-8 mx-auto">
                 <p class="text-center">
-                    La información de los  lugares se te proporcionará una vez que hayas realizado tu
-                    confirmación.
+                    La información de los  lugares se proporcionará una vez realizada la confirmación de asistencia.
                 </p>
             </div>
         </div>

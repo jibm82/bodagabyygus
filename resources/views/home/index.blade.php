@@ -67,8 +67,6 @@
 	    @include('home.partials.header')
 	    @include('home.partials.hero')
 
-
-
 		<section id="about-us">
 			<div class="container">
 				<div class="row about-elems-wrapper">
@@ -91,145 +89,14 @@
 			</div>
 		</section>
 
-		<!-- BEGIN THE WEDDING SECTION -->
-		<section id="the-wedding" class="parallax-background bg-color-overlay padding-divider-top section-divider-bottom-1">
-			<div class="section-divider-top-1 off-section"></div><!-- The class "section-divider-top-1" can also be applied to the tag <section>. In this case, it was added on a new <div> because the tag <section> have all pseudo elements (::after and ::before) in use. -->
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<h1 class="section-title light">Invitación</h1>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 center">
-						<div class="invite neela-style" data-animation-direction="from-left" data-animation-delay="100">
-							<div class="invite_title">
-								<div class="text">
-									Jaesy<small>&</small>Jorge
-								</div>
-							</div>
-
-							<div class="invite_info">
-								{{-- <h2>Jaesy <small>&</small> Jorge</h2> --}}
-
-								<div class="uppercase">Los esperamos en la ceremonia religiosa que tendrá lugar el</div>
-								<div class="date">19 de noviembre de 2022<small>05:00 pm</small></div>
-								<div class="uppercase">Iglesia de San Román<br>San Francisco de Campeche</div>
-
-								<!-- <h5>Después nos vamos a mamar</h5> -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END THE WEDDING SECTION -->
-
-
-		<!-- BEGIN WEDDING LOCATION SECTION -->
-		<section id="location">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<h2 class="section-title">
-							Ceremonia y Recepción
-						</h2>
-					</div>
-				</div>
-			</div>
-
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-xl-10 offset-xl-1">
-
-						<div class="map-info-container">
-							<div class="info-wrapper" data-animation-direction="from-bottom" data-animation-delay="100">
-								<div class="location-info">
-									<div class="neela-style">
-										<h4 class="has-icon"><i class="icon-big-church"></i>Ceremonia<small>05:00pm</small></h4>
-										<h5>Iglesia de San Román</h5>
-										<p>
-											Calle 10 S/N, Barrio de San Román<br/>
-											San Francisco de Campeche, Campeche. CP 24040.
-										</p>
-
-										<div class="info-map-divider"></div>
-
-										<h4 class="has-icon"><i class="icon-champagne-glasses"></i>Recepción<small>07:00pm</small></h4>
-										<h5>Ex Hacienda Xtelchel</h5>
-										<p>
-											Carretera Campeche - Mérida km. 12<br/>
-											San Francisco de Campeche, Campeche. CP 24087.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="map-wrapper" data-animation-direction="fade" data-animation-delay="100">
-								<div id="map_canvas" class="gmap"></div>
-
-								<div class="map_pins">
-									<ul class="pins">
-										<li>                         </li>
-										<li>                         </li>
-										<li><i class="fas fa-bell"></i>Ceremonia</li>
-										<li><i class="fas fa-glass-cheers"></i>Recepción</li>
-										<li>                         </li>
-										<li>                         </li>
-									</ul>
-								</div>
-							</div>
-						</div>
-
-						<div class="center">
-							<a href="#rsvp" class="btn btn-primary scrollto">RSVP</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END WEDDING LOCATION SECTION -->
-
-
-
-
+		@include('home.partials.invite')
+		@include('home.partials.location')
+        @include('home.partials.agenda')
+        @include('home.partials.dress-code')
+        @include('home.partials.weeding-gifts')
 		@include('home.partials.transportation')
 		@include('home.partials.lodging')
-
-
-
-
-
-		<!-- BEGIN BRIDESMAIDS SECTION -->
-		<section id="dress-code" class="parallax-background bg-color-overlay">
-			<div class="container">
-
-				<div class="row">
-					<div class="col-sm-12">
-						{{-- <h2 class="section-title light mb-0">Código de vestimenta</h2> --}}
-                        <h1 class="section-title light my-3 custom-section-title">Código de vestimenta</h1>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-sm-12">
-
-					</div>
-				</div>
-
-			</div>
-		</section>
-		<!-- END BRIDESMAIDS SECTION -->
-
-        @include('home.partials.timeline')
-        {{-- @include('home.partials.bridesmaids')
-        @include('home.partials.groomsmen') --}}
-        @include('home.partials.weeding-gifts')
-        {{-- @include('home.partials.gallery')
-        @include('home.partials.testimonials') --}}
         @include('home.partials.blog')
-        @include('home.partials.agenda')
         @include('home.partials.contact')
         @include('home.partials.footer')
 
