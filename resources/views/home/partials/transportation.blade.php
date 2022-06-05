@@ -98,7 +98,7 @@
             <div class="tab-pane fade" id="transportation-option-2" role="tabpanel"
                     aria-labelledby="transportation-option-2-tab">
                 <div class="row">
-                    <div class="col-1 col-md-5 d-flex flex-column">
+                    <div class="col-12 col-md-5 d-flex flex-column">
                         <h4 class="text-center">
                             IDA
                         </h4>
@@ -147,10 +147,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-1 col-md-2 py-4 py-md-0">
+                    <div class="col-12 col-md-2 py-4 py-md-0">
                         <div class="vr-dashed"></div>
                     </div>
-                    <div class="col1 col-md-5 d-flex flex-column">
+                    <div class="col-12 col-md-5 d-flex flex-column">
                         <h4 class="text-center">
                             VUELTA
                         </h4>
