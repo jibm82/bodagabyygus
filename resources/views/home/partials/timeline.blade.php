@@ -1,13 +1,8 @@
-<!-- BEGIN TIMELINE SECTION -->
 <section id="loveline">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
                 <div class="timeline">
-                    <!-- <div class="year" data-animation-direction="from-top" data-animation-delay="250">
-                        <span class="neela-style">2018</span>
-                    </div> -->
-
                     <div class="gallery-container">
                         <div class="timeline-gallery-wrapper" data-animation-direction="from-left" data-animation-delay="250">
                             <div class="timeline-gallery owl-carousel">
@@ -30,7 +25,6 @@
                                 <div class="item">
                                     <img src="./images/dress-code/women8.jpg" alt="" />
                                 </div>
-
                             </div>
                         </div>
 
@@ -92,7 +86,7 @@
                                                 </a>
                                             </div>
                                             <p class="mt-2 timeline-link-wrapper text-start">
-                                                <a href="#" x-on:click.prevent="page = 1"><< Anterior</a>
+                                                <a href="#" x-on:click.prevent="page = 1">&lt;&lt; Anterior</a>
                                             </p>
                                         </div>
                                     </div>
@@ -186,13 +180,12 @@
                         </div>
                     </div>
 
-                <div class="timeline_footer">
-                    <i class="icon-champagne-glasses" data-animation-direction="from-top" data-animation-delay="250"></i>
-                    <div class="punchline" data-animation-direction="from-bottom" data-animation-delay="250"><small>...y lo más importante</small>¡llevar<br>actitud!<small>para la fiesta</small></div>
+                    <div class="timeline_footer">
+                        <i class="icon-champagne-glasses" data-animation-direction="from-top" data-animation-delay="250"></i>
+                        <div class="punchline" data-animation-direction="from-bottom" data-animation-delay="250"><small>...y lo más importante</small>¡llevar<br>actitud!<small>para la fiesta</small></div>
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
 </section>
-<!-- END TIMELINE SECTION -->

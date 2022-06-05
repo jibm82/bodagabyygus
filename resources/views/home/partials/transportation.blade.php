@@ -21,7 +21,7 @@
 
         <ul class="mt-2 nav justify-content-center nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill"
+                <button class="nav-link active" id="transportation-option-1-tab" data-bs-toggle="pill"
                         data-bs-target="#transportation-option-1" type="button" role="tab"
                         aria-controls="transportation-option-1" aria-selected="true">
                     <i class="fa fa-plane"></i>
@@ -30,7 +30,7 @@
                 </button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill"
+                <button class="nav-link" id="transportation-option-2-tab" data-bs-toggle="pill"
                         data-bs-target="#transportation-option-2" type="button" role="tab"
                         aria-controls="transportation-option-2" aria-selected="false">
                     <i class="fa fa-plane"></i>
@@ -38,7 +38,7 @@
                 </button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                <button class="nav-link" id="transportation-option-3-tab" data-bs-toggle="pill"
                         data-bs-target="#transportation-option-3" type="button" role="tab"
                         aria-controls="transportation-option-3" aria-selected="false">
                     <i class="fa fa-car"></i>
@@ -46,7 +46,7 @@
                 </button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                <button class="nav-link" id="transportation-option-4-tab" data-bs-toggle="pill"
                         data-bs-target="#transportation-option-4" type="button" role="tab"
                         aria-controls="transportation-option-4" aria-selected="false">
                     <i class="fa fa-bus"></i>
@@ -55,7 +55,7 @@
             </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="transportation-option-1" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="tab-pane fade show active" id="transportation-option-1" role="tabpanel" aria-labelledby="transportation-option-1-tab">
                 <div class="row mt-4">
                     <div class="col col-md-5">
                         <h4 class="text-center">
@@ -96,12 +96,12 @@
                 </div>
             </div>
             <div class="tab-pane fade" id="transportation-option-2" role="tabpanel"
-                    aria-labelledby="pills-home-tab">
+                    aria-labelledby="transportation-option-2-tab">
                 <div class="row">
                     <div class="col-1 col-md-5 d-flex flex-column">
                         <h4 class="text-center">
                             IDA
-                        </h3>
+                        </h4>
                         <div class="flex-grow-1 mt-1 mb-3">
                             Los vuelos directos a Campeche sólo manejan un horario.
                         </div>
@@ -153,7 +153,7 @@
                     <div class="col1 col-md-5 d-flex flex-column">
                         <h4 class="text-center">
                             VUELTA
-                        </h3>
+                        </h4>
                         <div class="flex-1 mt-1 mb-3">
                             El aeropuerto está a 15 min de cualquier punto de la ciudad de Campeche te recomendamos
                             salir a las 7am de hotel o casa
@@ -202,14 +202,14 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="transportation-option-3" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="tab-pane fade" id="transportation-option-3" role="tabpanel" aria-labelledby="transportation-option-3-tab">
                 <div class="mt-4 text-center">
                     Para los que les guste manejar y recorrer nuestro bello México, pueden llegar a Campeche por Autopista,
                     es un viaje aproximado de 12hrs, dependiendo de las paradas de que hagas, el costo promedio de las
                     casetas es de $3,500 de ida y otros $3,500 de regreso. De gasolina son entre 2 o 3 tanques dependiendo el auto.
                 </div>
             </div>
-            <div class="tab-pane fade" id="transportation-option-4" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="tab-pane fade" id="transportation-option-4" role="tabpanel" aria-labelledby="transportation-option-4-tab">
                 <div class="mt-4 text-center">
                     El viaje en autobus es de 14hrs saliendo desde CDMX  y saliendo desde Puebla de 12 hrs. (Una sola salida al día).
                 </div>
