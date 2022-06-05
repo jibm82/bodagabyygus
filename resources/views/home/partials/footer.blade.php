@@ -2,14 +2,7 @@
 <footer id="footer-onepage" class="bg-color">
     <div class="footer-image-container">
         <img src="images/slideshow/walking3.jpg"/>
-        <div class="overlay">
-            {{-- <h1 class="section-title light custom-section-title">Nos vemos pronto</h1> --}}
-            <div class="footer-logo">
-                Jaesy<br>
-                <small>&</small><br>
-                Jorge
-            </div>
-        </div>
+        <div class="overlay"></div>
     </div>
     {{-- <section id="footer-image" class="parallax-background bg-color-overlay">
         <div class="container">
@@ -22,7 +15,7 @@
     </section> --}}
     <div class="">
         <div class="container">
-            <h1 class="section-title light custom-section-title">Nos vemos pronto</h1>
+            <h1 class="section-title light footer-section-title">Nos vemos pronto</h1>
         </div>
     </div>
 

@@ -61,7 +61,7 @@
                                             </p>
                                             <p class="mt-4">
                                                 Como la recepción es
-                                                al aire libre, te recomendamos también llevar
+                                                al aire libre, te recomendamos llevar
                                                 tacones gruesos por el pasto y algo ligero para
                                                 cubrirte  como una pashmina, te dejamos algunos
                                                 ejemplos en la galería.
