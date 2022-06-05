@@ -19,11 +19,11 @@
                                 </div>
 
                                 <div class="item">
-                                    <img src="./images/dress-code/women3.jpg" alt="" />
+                                    <img src="./images/dress-code/women8.jpg" alt="" />
                                 </div>
 
                                 <div class="item">
-                                    <img src="./images/dress-code/women8.jpg" alt="" />
+                                    <img src="./images/dress-code/women9.jpg" alt="" />
                                 </div>
                             </div>
                         </div>
