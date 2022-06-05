@@ -3,6 +3,7 @@
   /* --custom-primary-color: #6B7D77;
   --custom-secondary-color: #B5C1B0; */
   --custom-primary-color: #055864;
+  --custom-secondary-color: #026c7c;
 }
 
 /* Root elements */
@@ -243,4 +244,25 @@ h1, h2, h3, h4, h5, h6 {
 .divider-about-us i {
     color: var(--custom-primary-color);
     opacity: 1;
+}
+
+.map-info-container .info-wrapper .location-info,
+.timeline .description {
+    background-color: var(--custom-secondary-color);
+}
+
+.btn-primary {
+    color: var(--custom-primary-color);
+}
+
+.bg-color {
+    background-color: var(--custom-primary-color);
+}
+
+#footer-onepage .footer-widget-area:before {
+    background-color: var(--custom-secondary-color);
+}
+
+.timeline_footer .punchline {
+    color: var(--custom-secondary-color);
 }

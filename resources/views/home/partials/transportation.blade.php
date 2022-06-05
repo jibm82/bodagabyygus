@@ -42,7 +42,7 @@
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                     aria-labelledby="pills-home-tab">
                 <div class="row">
-                    <div class="col-5 d-flex flex-column">
+                    <div class="col-1 col-md-5 d-flex flex-column">
                         <h4 class="text-center">
                             IDA
                         </h3>
@@ -91,10 +91,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-1 col-md-2 py-4 py-md-0">
                         <div class="vr-dashed"></div>
                     </div>
-                    <div class="col-5 d-flex flex-column">
+                    <div class="col1 col-md-5 d-flex flex-column">
                         <h4 class="text-center">
                             VUELTA
                         </h3>
@@ -148,7 +148,7 @@
             </div>
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                 <div class="row mt-4">
-                    <div class="col-6">
+                    <div class="col col-md-6">
                         <h4 class="text-center">
                             <i class="fa fa-plane"></i>
                         </h4>
@@ -158,7 +158,7 @@
                             y Volaris.
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col col-md-6 mt-4 mt-md-0">
                         <h4 class="text-center">
                             <i class="fa fa-bus"></i>
                         </h4>
