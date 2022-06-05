@@ -39,7 +39,7 @@
                         <article class="item col-md-4">
                             <div class="image">
                                 <a target="_blank" href="https://www.unpinenelmapa.com/post/campeche-en-1-dia">
-                                    <span class="btn btn-light"><i class="fa fa-file-o"></i> Read More</span>
+                                    <span class="btn btn-light"><i class="fa fa-file-o"></i> Ver más</span>
                                 </a>
                                 <img src="./images/muralla.jpg" alt="" />
                             </div>

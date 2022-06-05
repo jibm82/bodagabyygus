@@ -285,3 +285,28 @@ h1, h2, h3, h4, h5, h6 {
 .underlined {
     text-decoration: underline;
 }
+
+@media (min-width: 992px) {
+    #wedding-details h4 {
+        align-items: center;
+        display: flex;
+        font-size: 32pt;
+        justify-content: center;
+        min-height: 112px;
+    }
+}
+
+#wedding-details h5 {
+    font-weight: bold;
+}
+
+#wedding-details h5 small {
+    display: block;
+    font-weight: normal;
+}
+
+#wedding-details .icon-wrapper i {
+    color: var(--custom-secondary-color);
+    font-size: 60pt;
+}
+

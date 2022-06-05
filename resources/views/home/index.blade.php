@@ -37,7 +37,8 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet" />
 
 	<!-- FontAwesome CSS -->
-	<link href="css/fontawesome-all.min.css" rel="stylesheet" />
+	{{-- <link href="css/fontawesome-all.min.css" rel="stylesheet" /> --}}
+	<link href="assets/fontawesome/css/all.min.css" rel="stylesheet" />
 
 	<!-- Neela Icon Set CSS -->
 	<link href="css/neela-icon-set.css" rel="stylesheet" />
@@ -226,6 +227,7 @@
         @include('home.partials.weeding-gifts')
         {{-- @include('home.partials.gallery')
         @include('home.partials.testimonials') --}}
+        @include('home.partials.agenda')
         @include('home.partials.blog')
         @include('home.partials.contact')
         @include('home.partials.footer')
