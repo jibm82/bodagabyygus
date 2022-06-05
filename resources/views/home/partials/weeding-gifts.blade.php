@@ -13,7 +13,7 @@
 
                     <li id="gift-list" data-animation-direction="from-bottom" data-animation-delay="300">
                         <div class="neela-style">
-                            <a href="https://www.liverpool.com.mx/" target="_blank">
+                            <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/50849838" target="_blank">
                                 <div class="gift-registry-card-info">
                                     <img src="./images/logos/liverpool.png"/>
                                     <div>
@@ -29,7 +29,7 @@
 
                     <li id="help-wedding" data-animation-direction="from-bottom" data-animation-delay="300">
                         <div class="neela-style">
-                            <a href="https://www.elpalaciodehierro.com/" target="_blank">
+                            <a href="https://www.elpalaciodehierro.com/buscar?eventId=369341" target="_blank">
                                 <div class="gift-registry-card-info">
                                     <img src="./images/logos/palacio-small.jpg"/>
                                     <div>
@@ -42,22 +42,6 @@
                             </a>
                         </div>
                     </li>
-
-                    <!-- <li id="help-honeymoon" data-animation-direction="from-bottom" data-animation-delay="300">
-                        <div class="neela-style">
-                            <i class="icon-honeymoon"></i>
-                            <h3>Contribute to our<br>dream honeymoon</h3>
-
-                            <div class="info">
-                                <a href="#" class="btn btn-primary reverse">$50</a>
-                                <a href="#" class="btn btn-primary reverse">$100</a>
-                                <a href="#" class="btn btn-primary reverse">$200</a>
-                                <br>
-                                <a href="#" id="otheramount" class="btn btn-primary reverse">Other Amount</a>
-                            </div>
-                        </div>
-                    </li> -->
-
                 </ul>
             </div>
         </div>

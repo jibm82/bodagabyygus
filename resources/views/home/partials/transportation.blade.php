@@ -68,6 +68,11 @@
                                     Volando desde la CDMX a Mérida, estas aerolíneas cuentan con vuelos
                                     directos: Aeroméxico, Viva Aerobus, y Volaris.
                                 </div>
+                            </div>
+                            <div class="col col-md-6 mt-4 mt-md-0 text-center">
+                                <h4 class="text-center">
+                                    <i class="fa fa-bus"></i>
+                                </h4>
                                 <div class="mt-2">
                                     Llegando al aeropuerto de Mérida salen camiones directos a la Ciudad de
                                     Campeche por las líneas de autobuses: ADO y OCC.
@@ -76,23 +81,6 @@
                                     El tiempo estimado es
                                     de 2hrs 20 min. existen distintas corridas por lo que te recomendamos
                                     verificar previamente con el horario de tu vuelo.
-                                </div>
-                            </div>
-                            <div class="col col-md-6 mt-4 mt-md-0 text-center">
-                                <h4 class="text-center">
-                                    <i class="fa fa-bus"></i>
-                                </h4>
-                                <div class="mt-2">
-                                    <div>
-                                        Del aeropuerto de Mérida salen camiones directos a la Ciudad de Campeche
-                                        por las líneas de autobuses: ADO y OCC.
-                                    </div>
-
-                                    <div class="mt-2">
-                                        El tiempo estimado es de 2hrs 20 min. el costo del camión varia entre $242 y $260,
-                                        existen distintas corridas, la última saliendo del aeropuerto es a las 18:30hrs,
-                                        verifícalo con el horario de tu vuelo.
-                                    </div>
                                 </div>
                             </div>
                         </div>
