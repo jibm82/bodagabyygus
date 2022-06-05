@@ -22,7 +22,7 @@
                                 <a target="_blank" href="https://alanxelmundo.com/5-lugares-instagrameables-en-campeche/">
                                     <span class="btn btn-light"><i class="fa fa-file-o"></i> Ver más</span>
                                 </a>
-                                <img src="./images/alan.jpg" alt="" />
+                                <img src="./images/covers/sunset.jpg" alt="" />
                             </div>
 
                             <div class="info-blog">

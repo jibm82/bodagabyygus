@@ -152,12 +152,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #transportation {
-    background-image: url("https://media.istockphoto.com/photos/colorful-buildings-in-campeche-mexico-picture-id1287190846?k=20&m=1287190846&s=612x612&w=0&h=kll-JduaQeJWuhj9P969a5AHswTmZtt_1aMDXa0W4CQ=");
+    background-image: url("../images/covers/bikes-wide.jpg");
 }
 
 @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
     #transportation {
-      background-image: url("https://media.istockphoto.com/photos/colorful-buildings-in-campeche-mexico-picture-id1287190846?k=20&m=1287190846&s=612x612&w=0&h=kll-JduaQeJWuhj9P969a5AHswTmZtt_1aMDXa0W4CQ=");
+        background-image: url("../images/covers/bikes.jpg");
     }
 }
 
@@ -295,19 +295,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-@media (min-width: 992px) {
-    #wedding-details h4 {
-        align-items: center;
-        display: flex;
-        font-size: 32pt;
-        justify-content: center;
-        min-height: 112px;
-    }
 
-    #giftregistry {
-        min-height: 100vh;
-    }
-}
 
 #wedding-details h5 {
     font-weight: bold;
@@ -374,6 +362,26 @@ h1, h2, h3, h4, h5, h6 {
     #wedding-details h4 {
         font-size: 22pt;
         margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    #wedding-details h4 {
+        align-items: center;
+        display: flex;
+        font-size: 32pt;
+        justify-content: center;
+        min-height: 112px;
+    }
+
+    #giftregistry {
+        min-height: 100vh;
+    }
+
+    .footer-image-container img {
+        max-height: 100vh;
+        object-fit: cover;
+        object-position: 50% 100%;
     }
 }
 
