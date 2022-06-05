@@ -57,7 +57,7 @@
         <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="transportation-option-1" role="tabpanel" aria-labelledby="transportation-option-1-tab">
                 <div class="row mt-4">
-                    <div class="col col-md-5">
+                    <div class="col col-md-5 text-center">
                         <h4 class="text-center">
                             <i class="fa fa-plane"></i>
                         </h4>
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                     <div class="col-md-2"></div>
-                    <div class="col col-md-5 mt-4 mt-md-0">
+                    <div class="col col-md-5 mt-4 mt-md-0 text-center">
                         <h4 class="text-center">
                             <i class="fa fa-bus"></i>
                         </h4>

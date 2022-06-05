@@ -35,13 +35,16 @@
                                         <div x-show="page === 1">
                                             <h4>Mujeres</h4>
                                             <p>
-                                                Vestido largo o Midi, puede ser liso o estampado, telas livianas por el
-                                                clima de Campeche.
+                                                Amigas y familia el vestido puede ser largo o Midi ,
+                                                liso o estampado, de preferencia de telas livianas
+                                                (clima caluroso en Campeche).
                                             </p>
                                             <p class="mt-4">
-                                                Te recomendamos llevar tacones gruesos y algo ligero
-                                                para cubrirte como una pashmina porque será en un lugar abierto.
-                                                Te dejamos algunos ejemplos en la galería.
+                                                Como la recepción es
+                                                al aire libre, te recomendamos también llevar
+                                                tacones gruesos por el pasto y algo ligero para
+                                                cubrirte  como una pashmina, te dejamos algunos
+                                                ejemplos en la galería.
                                             </p>
                                             <p class="mt-4 timeline-link-wrapper text-end">
                                                 <a href="#" x-on:click.prevent="page = 2">Maquillaje y peinado >></a>
@@ -167,13 +170,14 @@
                                 <div class="neela-style">
                                     <h4>Damas de honor</h4>
                                     <p>
-                                        Queridas amigas y familia, las damas de honor llevarán estos 4 colores, por
-                                        lo que te sugerimos utilizar otros colores o diferentes tonalidades de estos
-                                        mismos.
+                                        Queridas amigas y familia, las damas de honor utilizarán los
+                                        4 colores mostrados en la galeria, por lo que te sugerimos
+                                        utilizar otros colores o diferentes tonalidades de estos.
                                     </p>
                                     <p class="mt-4">
-                                        Si tienes un vestido de alguno de estos colores no te preocupes,
-                                        bienvenida al grupo de damas, lo importante es compartir con ustedes ;)
+                                        Nota: Si ya cuentas con algún vestido de estos colores,y te
+                                        gustaría usarlo ¡no te preocupes! bienvenida al grupo de
+                                        damas.
                                     </p>
                                 </div>
                             </div>
