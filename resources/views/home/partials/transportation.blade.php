@@ -21,18 +21,18 @@
 
         <ul class="mt-2 nav justify-content-center nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                <button class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill"
                         data-bs-target="#transportation-option-1" type="button" role="tab"
-                        aria-controls="transportation-option-1" aria-selected="false">
+                        aria-controls="transportation-option-1" aria-selected="true">
                     <i class="fa fa-plane"></i>
                     <i class="fa fa-bus"></i>
                     CDMX - Mérida
                 </button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill"
                         data-bs-target="#transportation-option-2" type="button" role="tab"
-                        aria-controls="transportation-option-2" aria-selected="true">
+                        aria-controls="transportation-option-2" aria-selected="false">
                     <i class="fa fa-plane"></i>
                     CDMX - Campeche
                 </button>
@@ -55,19 +55,28 @@
             </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade" id="transportation-option-1" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="tab-pane fade show active" id="transportation-option-1" role="tabpanel" aria-labelledby="pills-profile-tab">
                 <div class="row mt-4">
-                    <div class="col col-md-6">
+                    <div class="col col-md-5">
                         <h4 class="text-center">
                             <i class="fa fa-plane"></i>
                         </h4>
                         <div class="mt-2">
-                            Otra opción para llegar a la ciudad de Campeche, es volando a la ciudad de Mérida,
-                            las siguientes aerolíneas cuentan con vuelos directos: Aeroméxico, VivaAerobus
-                            y Volaris.
+                            Volando desde la CDMX a Mérida, estas aerolíneas cuentan con vuelos
+                            directos: Aeroméxico, Viva Aerobus, y Volaris.
+                        </div>
+                        <div class="mt-2">
+                            Llegando al aeropuerto de Mérida salen camiones directos a la Ciudad de
+                            Campeche por las líneas de autobuses: ADO y OCC.
+                        </div>
+                        <div class="mt-2">
+                            El tiempo estimado es
+                            de 2hrs 20 min. existen distintas corridas por lo que te recomendamos
+                            verificar previamente con el horario de tu vuelo.
                         </div>
                     </div>
-                    <div class="col col-md-6 mt-4 mt-md-0">
+                    <div class="col-md-2"></div>
+                    <div class="col col-md-5 mt-4 mt-md-0">
                         <h4 class="text-center">
                             <i class="fa fa-bus"></i>
                         </h4>
@@ -86,7 +95,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade show active" id="transportation-option-2" role="tabpanel"
+            <div class="tab-pane fade" id="transportation-option-2" role="tabpanel"
                     aria-labelledby="pills-home-tab">
                 <div class="row">
                     <div class="col-1 col-md-5 d-flex flex-column">

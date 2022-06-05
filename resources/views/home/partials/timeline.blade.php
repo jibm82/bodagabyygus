@@ -132,7 +132,10 @@
                                     <h4>Hombres</h4>
                                     <p>
                                         Amigos y familia les recomendamos usar traje de telas livianas como el lino
-                                        o algodón. Por el clima caluroso en Campeche la corbata será opcional para
+                                        o algodón.
+                                    </p>
+                                    <p class="mt-4">
+                                        Por el clima caluroso en Campeche la corbata será opcional para
                                         que puedan estar a gusto, les dejamos algunos ejemplos en la galería.
                                     </p>
                                 </div>
@@ -172,7 +175,10 @@
                                     <p>
                                         Queridas amigas y familia, las damas de honor llevarán estos 4 colores, por
                                         lo que te sugerimos utilizar otros colores o diferentes tonalidades de estos
-                                        mismos. Si tienes un vestido de alguno de estos colores no te preocupes,
+                                        mismos.
+                                    </p>
+                                    <p class="mt-4">
+                                        Si tienes un vestido de alguno de estos colores no te preocupes,
                                         bienvenida al grupo de damas, lo importante es compartir con ustedes ;)
                                     </p>
                                 </div>
