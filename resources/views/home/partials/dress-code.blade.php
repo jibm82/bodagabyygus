@@ -45,6 +45,10 @@
                                 <div class="item">
                                     <img src="./images/dress-code/women9.jpg" alt="" />
                                 </div>
+
+                                <div class="item">
+                                    <img src="./images/dress-code/women10.jpg" alt="" />
+                                </div>
                             </div>
                         </div>
 
