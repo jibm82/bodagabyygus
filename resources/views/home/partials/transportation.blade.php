@@ -116,7 +116,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="mt-3 card flight-card p-2">
+                                    {{-- <div class="mt-3 card flight-card p-2">
                                         <h5 class="text-center">
                                             Volaris único vuelo
                                         </h5>
@@ -134,7 +134,7 @@
                                                 <div class="city">Campeche</div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                             <div class="col-12 col-md-2 py-4 py-md-0">
@@ -168,7 +168,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="mt-3 card flight-card p-2">
+                                    {{-- <div class="mt-3 card flight-card p-2">
                                         <h5 class="text-center">
                                             Volaris único vuelo
                                         </h5>
@@ -186,7 +186,7 @@
                                                 <div class="city">CDMX T1</div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>

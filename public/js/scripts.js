@@ -862,26 +862,13 @@ var Neela;
                     success: function (msg) {
                         stopSpin();
 
-                        $("#form-rsvp").addClass("hidden");
+                        $("#form-rsvp").addClass("d-none");
 
                         if(msg.isAttending) {
-
+                            $("#attending-message").removeClass("d-none");
                         } else {
-
+                            $("#not-attending-message").removeClass("d-none");
                         }
-
-                        // if (msg === "ok") {
-                        //     showSuccess();
-                        //     $form[0].reset();
-                        // } else {
-                        //     $_self.showError($_self.contactFormRecaptchaErrorMsg);
-                        // }
-
-                        // $_self.sendingMail = false;
-
-                        // if ($(".g-recaptcha").length) {
-                        //     grecaptcha.reset();
-                        // }
                     },
                     error: function (err) {
                         console.log("error", err.responseJSON);

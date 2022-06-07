@@ -12,7 +12,7 @@
                     <i class="fa fa-handshake-simple"></i>
                 </div>
                 <h4>Nos conocemos</h4>
-                <h5>Viernes 18<small>18 hrs</small></h5>
+                <h5>Icebreaker - Viernes 18<small>18 hrs</small></h5>
             </div>
 
             <div class="col-md-4 wedding-details animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="500">
@@ -20,7 +20,7 @@
                     <i class="fa fa-champagne-glasses"></i>
                 </div>
                 <h4>Celebramos</h4>
-                <h5>Sábado 19<small>17 hrs</small></h5>
+                <h5>Boda - Sábado 19<small>17 hrs</small></h5>
             </div>
 
             <div class="col-md-4 wedding-details animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="700">
@@ -28,7 +28,7 @@
                     <i class="fa fa-bandage"></i>
                 </div>
                 <h4>Nos la curamos</h4>
-                <h5>Domingo 20<small>Por definir</small></h5>
+                <h5>Tornaboda - Domingo 20<small>11 hrs</small></h5>
             </div>
         </div>
 

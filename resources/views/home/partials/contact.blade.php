@@ -8,17 +8,11 @@
                 <div class="form-wrapper flowers neela-style">
                     <h1 class="section-title">Confirma tu asistencia</h1>
 
-                    <form id="form-rsvp" method="post" action="#" x-data="{ isAttending: null }">
+                    <form id="form-rsvp" method="post" action="#" x-data="{ isAttending: null }" class="">
 
                         <div class="form-field form-floating">
                             <input type="text" name="name" id="name" placeholder="Nombre*" class="form-control required">
                             <label for="name">Nombre*</label>
-                            <div class="invalid-feedback"></div>
-                        </div>
-
-                        <div class="form-field form-floating">
-                            <input type="email" name="email" id="email" placeholder="E-mail*" class="form-control required">
-                            <label for="email">E-mail*</label>
                             <div class="invalid-feedback"></div>
                         </div>
 
@@ -87,21 +81,21 @@
                         </div>
                     </form>
 
-                    <div id="attending-message" class="confirmation-message invisible">
+                    <div id="attending-message" class="confirmation-message d-none">
                         <div>
                             <i class="fa-regular fa-face-smile"></i>
                         </div>
-                        <div class="text-center">
-                            Gracias por confirmar tu asistencia. Nuestra wedding planner se pondrá en contacto contigo.
+                        <div class="text-center fs-5">
+                            Gracias por confirmar tu asistencia. Más adelante nuestra wedding planner se pondrá en contacto contigo
                         </div>
                     </div>
 
-                    <div id="not-attending-message" class="confirmation-message">
+                    <div id="not-attending-message" class="confirmation-message d-none">
                         <div>
-                            <i class="fa-regular fa-face-smile"></i>
+                            <i class="fa-regular fa-face-sad-tear"></i>
                         </div>
-                        <div class="text-center">
-                            Gracias por confirmar tu asistencia. Nuestra wedding planner se pondrá en contacto contigo.
+                        <div class="text-center fs-5">
+                            Sentimos mucho que no puedas acompañarnos. Si cambias de opinión avísanos lo antes posible.
                         </div>
                     </div>
                 </div>

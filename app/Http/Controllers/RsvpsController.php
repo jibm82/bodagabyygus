@@ -13,7 +13,6 @@ class RsvpsController extends BaseController
     {
         $data = $this->validate($request, [
             'name' => 'required',
-            'email' => 'required|email',
             'phone' => 'required|digits:10',
             'is_attending' => 'required',
             'icebreaker' => '',
