@@ -14,3 +14,4 @@
 */
 
 $router->get('/', ['uses' => 'Controller']);
+$router->post('/rsvp', ['uses' => 'RsvpsController', 'as' => 'rsvp']);

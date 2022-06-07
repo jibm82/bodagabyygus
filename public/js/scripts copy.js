@@ -842,64 +842,154 @@ var Neela;
             var $_self = this;
 
             $(".submit_form").on("click", function (e) {
-                const $submit_btn = $(this);
-                let stopSpin;
 
-                // $submit_btn.width("auto");
-                // $submit_btn.append("<i class=\"fas fa-spinner fa-spin after\"></i>");
-                // $submit_btn.addClass("disabled");
+                var $submit_btn = $(this);
+                var $form = $submit_btn.closest("form");
+                var $fields = $("input, textarea, select, fieldset", $form);
+                var len = 0;
+                var re = /\S+@\S+\.\S+/;
+                var html = "contact";
+                var error = false;
+                var showSuccess;
+                var stopSpin;
+                var encodeHtml;
+
+                e.preventDefault();
+
+                encodeHtml = function (str) {
+                    return encodeURIComponent(str);
+                };
+
+                $submit_btn.width("auto");
+
+                $(".form_status_message").html("");
+
+                $fields.each(function () {
+                    var $field = $(this);
+
+                    if ($field.attr("type") === "hidden") {
+                        if ($field.hasClass("fromName") || $field.hasClass("fromname")) {
+                            html += "&fromname=" + encodeHtml($field.val());
+                        } else if ($field.hasClass("fromEmail") || $field.hasClass("fromemail")) {
+                            html += "&fromemail=" + encodeHtml($field.val());
+                        } else if ($field.hasClass("fromCellphone") || $field.hasClass("fromcellphone")) {
+                            html += "&fromcellphone=" + encodeHtml($field.val());
+                        }
+                    } else {
+                        if ($field.attr("type") === "checkbox" && $field.parents("fieldset").length === 1 && $field.parents("fieldset").hasClass("required")) {
+                            return;
+                        }
+
+                        if ($field.is("fieldset") && $field.hasClass("required") && $("#" + $field.attr("id") + " input:checkbox:checked").length === 0) {
+                            $("input", $field).addClass("is-invalid");
+                            error = true;
+                        } else if ($field.hasClass("required") && $field.attr("type") === "checkbox" && !$("input[id='" + $field.attr("id") + "']").is(":checked")) {
+                            $field.addClass("is-invalid");
+                            error = true;
+                        } else if ($field.hasClass("required") && $field.val() === "" && $field.attr("type") !== "checkbox" && !$field.is("fieldset")) {
+                            $field.addClass("is-invalid");
+                            error = true;
+                        } else if ($field.hasClass("required") && $field.attr("type") === "radio" && !$("input[name='" + $field.attr("name") + "']").is(":checked")) {
+                            $field.addClass("is-invalid");
+                            error = true;
+                        } else if ($field.attr("type") === "email" && $field.val() !== "" && re.test($field.val()) === false) {
+                            $field.addClass("is-invalid");
+                            error = true;
+                        } else if ($field.attr("id") !== "g-recaptcha-response" && $field.attr("id") !== "recaptcha-token") {
+                            $field.removeClass("is-invalid");
+                            $("input", $field).removeClass("is-invalid");
+
+                            if ($field.hasClass("subject")) {
+                                html += "&subject=" + encodeHtml($field.val());
+                                html += "&subject_label=" + encodeHtml($field.attr("name"));
+                            } else if ($field.hasClass("fromName") || $field.hasClass("fromname")) {
+                                html += "&fromname=" + encodeHtml($field.val());
+                                html += "&fromname_label=" + encodeHtml($field.attr("name"));
+                            } else if ($field.hasClass("fromEmail") || $field.hasClass("fromemail")) {
+                                html += "&fromemail=" + encodeHtml($field.val());
+                                html += "&fromemail_label=" + encodeHtml($field.attr("name"));
+                            } else {
+                                if ($field.attr("type") === "radio") {
+                                    if ($("input[id='" + $field.attr("id") + "']").is(":checked")) {
+                                        html += "&field" + len + "_label=" + encodeHtml($field.attr("name"));
+                                        html += "&field" + len + "_value=" + encodeHtml($.trim($("label[for='" + $field.attr("id") + "']").text()));
+                                    }
+                                } else if ($field.is("fieldset")) {
+                                    html += "&field" + len + "_label=" + encodeHtml($field.attr("name"));
+
+                                    $("#" + $field.attr("id") + " input:checkbox:checked").each(function (index) {
+                                        if (index === 0) {
+                                            html += "&field" + len + "_value=";
+                                            html += encodeHtml($.trim($("label[for='" + $(this).attr("id") + "']").text()));
+                                        } else {
+                                            html += ", " + encodeHtml($.trim($("label[for='" + $(this).attr("id") + "']").text()));
+                                        }
+                                    });
+                                } else {
+                                    html += "&field" + len + "_label=" + encodeHtml($field.attr("name"));
+                                    html += "&field" + len + "_value=" + encodeHtml($field.val());
+                                }
+
+                                len += 1;
+                            }
+                        }
+                    }
+                });
+
+                html += "&len=" + len;
+
+                if ($(".g-recaptcha").length) {
+                    html += "&recaptcha=" + grecaptcha.getResponse();
+                }
+
+                showSuccess = function () {
+                    $(".form_status_message").html("<div class=\"alert alert-success alert-dismissible fade show\" role=\"alert\">" + $_self.contactFormSuccessMsg + "<button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\" aria-label=\"Close\"></button></div>");
+                };
 
                 stopSpin = function () {
                     $(".fa-spinner", $submit_btn).remove();
                     $submit_btn.removeClass("disabled");
                 };
 
-                $.ajax({
-                    type: "POST",
-                    url: "/rsvp",
-                    data: $('#form-rsvp').serialize(),
-                    // data: html,
-                    success: function (msg) {
-                        stopSpin();
+                console.log(html);
 
-                        $("#form-rsvp").addClass("hidden");
+                if (!error && !$_self.sendingMail) {
+                    $_self.sendingMail = true;
 
-                        if(msg.isAttending) {
+                    $submit_btn.append("<i class=\"fas fa-spinner fa-spin after\"></i>");
+                    $submit_btn.addClass("disabled");
 
-                        } else {
+                    $.ajax({
+                        type: "POST",
+                        url: "contact.php",
+                        data: html,
+                        success: function (msg) {
+                            stopSpin();
 
-                        }
-
-                        // if (msg === "ok") {
-                        //     showSuccess();
-                        //     $form[0].reset();
-                        // } else {
-                        //     $_self.showError($_self.contactFormRecaptchaErrorMsg);
-                        // }
-
-                        // $_self.sendingMail = false;
-
-                        // if ($(".g-recaptcha").length) {
-                        //     grecaptcha.reset();
-                        // }
-                    },
-                    error: function (err) {
-                        console.log("error", err.responseJSON);
-                        Object.keys(err.responseJSON).forEach(function(key){
-                            console.log(key);
-                            const $input = $(`[name="${key}"]`).addClass("is-invalid");
-                            const $errorTag = $input.closest(".form-field").find(".invalid-feedback");
-                            console.log($errorTag);
-                            if($errorTag.length > 0) {
-                                $errorTag.text(err.responseJSON[key][0]);
+                            if (msg === "ok") {
+                                showSuccess();
+                                $form[0].reset();
+                            } else {
+                                $_self.showError($_self.contactFormRecaptchaErrorMsg);
                             }
-                        });
-                        stopSpin();
 
-                        // $_self.showError();
-                        // $_self.sendingMail = false;
-                    }
-                });
+                            $_self.sendingMail = false;
+
+                            if ($(".g-recaptcha").length) {
+                                grecaptcha.reset();
+                            }
+                        },
+                        error: function () {
+                            stopSpin();
+
+                            $_self.showError();
+                            $_self.sendingMail = false;
+                        }
+                    });
+
+                } else {
+                    $_self.showError();
+                }
 
                 return false;
             });
