@@ -845,9 +845,9 @@ var Neela;
                 const $submit_btn = $(this);
                 let stopSpin;
 
-                // $submit_btn.width("auto");
-                // $submit_btn.append("<i class=\"fas fa-spinner fa-spin after\"></i>");
-                // $submit_btn.addClass("disabled");
+                $submit_btn.width("auto");
+                $submit_btn.append("<i class=\"fas fa-spinner fa-spin after\"></i>");
+                $submit_btn.addClass("disabled");
 
                 stopSpin = function () {
                     $(".fa-spinner", $submit_btn).remove();
