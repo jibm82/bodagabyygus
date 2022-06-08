@@ -9,9 +9,11 @@
 	<!-- Page Title -->
 	<title>Jaesy & Jorge - 19 de noviembre de 2022</title>
 
-	<meta name="keywords" content="one-page, single page, multi-page, wedding template, retina ready, responsive, modern html5 template, bootstrap, css3, wedding, venue">
-	<meta name="description" content="Neela - Responsive One/Multi-Page Wedding HTML5 Template">
-	<meta name="author" content="Wisely Themes">
+	<meta name="keywords" content="">
+	<meta name="description" content="Familia y amigos, nos encantaría compartir con ustedes este día tan especial
+    para nosotros, y que nos sigan acompañando en esta increíble historia, los
+    esperemos con mucho amor y alegría a nuestra celebración.">
+	<meta name="author" content="Jaesy & Jorge">
 
 	<!-- Mobile Meta Tag -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -19,7 +21,6 @@
 	<!-- Fav and touch icons -->
 	<link rel="icon" href="images/fav_touch_icons/favicon.ico" sizes="any">
 	<link rel="icon" href="images/fav_touch_icons/favicon.svg" type="image/svg+xml">
-	<link rel="apple-touch-icon" href="images/fav_touch_icons/apple-touch-icon-180x180.png">
 	<link rel="manifest" href="images/fav_touch_icons/manifest.json">
 
 	<!-- IE6-8 support of HTML5 elements -->
