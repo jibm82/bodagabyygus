@@ -168,23 +168,7 @@
                         <div class="timeline-gallery-wrapper" data-animation-direction="from-left" data-animation-delay="250">
                             <div class="timeline-gallery owl-carousel">
                                 <div class="item">
-                                    <img src="./images/dress-code/colors.jpg" alt="" />
-                                </div>
-
-                                <div class="item">
-                                    <img src="./images/dress-code/bridesmaid.jpg" alt="" />
-                                </div>
-
-                                <div class="item">
-                                    <img src="./images/dress-code/bridesmaid2.jpg" alt="" />
-                                </div>
-
-                                <div class="item">
-                                    <img src="./images/dress-code/bridesmaid3.jpg" alt="" />
-                                </div>
-
-                                <div class="item">
-                                    <img src="./images/dress-code/bridesmaid4.jpg" alt="" />
+                                    <img src="./images/dress-code/bridesmaid.jfif" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -194,12 +178,11 @@
                                 <div class="neela-style">
                                     <h4>Damas de honor</h4>
                                     <p>
-                                        Queridas amigas y familia, las damas de honor utilizarán los
-                                        4 colores mostrados en la galeria, por lo que te sugerimos
-                                        utilizar otros colores o diferentes tonalidades de estos.
+                                        Queridas amigas y familia, las damas de honor utilizarán esta gama de color, por lo que te sugerimos
+                                        utilizar otros colores.
                                     </p>
                                     <p class="mt-4">
-                                        Nota: Si ya cuentas con algún vestido de estos colores,y te
+                                        Nota: Si ya cuentas con algún vestido de este color y te
                                         gustaría usarlo ¡no te preocupes! bienvenida al grupo de
                                         damas.
                                     </p>
