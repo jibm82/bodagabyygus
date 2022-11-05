@@ -106,7 +106,7 @@
 
 
 	<!-- Google Maps API and Map Richmarker Library -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhaKHXImCnHPy1RAgVYJd0jgqY4DBjPhI"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key={{ env('MAPS_API_KEY') }}"></script>
 	<script src="js/richmarker.js"></script>
 
 	<!-- Libs -->
