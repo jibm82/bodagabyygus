@@ -12,7 +12,7 @@
                     <i class="fa fa-handshake-simple"></i>
                 </div>
                 <h4>Nos conocemos</h4>
-                <h5>Icebreaker - Viernes 18<small>18 hrs</small></h5>
+                <h5>Icebreaker - Viernes 18<small>17 hrs</small></h5>
             </div>
 
             <div class="col-md-4 wedding-details animate-from-bottom animation-from-bottom" data-animation-direction="from-bottom" data-animation-delay="500">
