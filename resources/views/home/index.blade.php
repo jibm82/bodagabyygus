@@ -84,11 +84,13 @@
                 <div class="row">
                     <div class="about-us-desc col-lg-8 offset-lg-2 visible" data-animation-direction="from-bottom"
                         data-animation-delay="300">
-                        <h3>¡Nos casamos!</h3>
+                        <h3>¡Juntos para siempre!</h3>
                         <p>
                             Familia y amigos, nos encantaría compartir con ustedes este día tan especial
-                            para nosotros, y que nos sigan acompañando en esta increíble historia, los
-                            esperemos con mucho amor y alegría a nuestra celebración.
+                            para nosotros y que nos sigan acompañando en esta increíble historia.
+                            Aquí encontrarán toda la información necesaria de nuestra boda,
+                            desde las fechas, lugares, hoteles y todos los detalles para que se
+                            preparen a celebrar con nosotros.
                         </p>
                         <!-- <img src="images/signature-2.png" alt="Andrew and Isabella"> -->
                     </div>
