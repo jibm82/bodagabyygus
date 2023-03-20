@@ -100,12 +100,12 @@
 
         {{-- @include('home.partials.agenda') --}}
         @include('home.partials.invite')
-        @include('home.partials.location')
-        @include('home.partials.dress-code')
-        @include('home.partials.weeding-gifts')
+        {{-- @include('home.partials.location') --}}
+        {{-- @include('home.partials.dress-code') --}}
         @include('home.partials.transportation')
         @include('home.partials.lodging')
         @include('home.partials.blog')
+        @include('home.partials.weeding-gifts')
         @include('home.partials.contact')
         @include('home.partials.footer')
 

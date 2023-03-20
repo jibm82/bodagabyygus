@@ -15,7 +15,7 @@
                         <div class="neela-style">
                             <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/50849838" target="_blank">
                                 <div class="gift-registry-card-info">
-                                    <img src="./images/logos/liverpool.png"/>
+                                    <img src="./images/logos/liverpool.png" />
                                     <div>
                                         <h3>Liverpool</h3>
                                         <p>
@@ -27,13 +27,13 @@
                         </div>
                     </li>
 
-                    <li id="help-wedding" data-animation-direction="from-bottom" data-animation-delay="300">
+                    {{-- <li id="help-wedding" data-animation-direction="from-bottom" data-animation-delay="300">
                         <div class="neela-style">
                             <a href="https://www.elpalaciodehierro.com/buscar?eventId=369341" target="_blank">
                                 <div class="gift-registry-card-info">
-                                    <img src="./images/logos/palacio-small.jpg"/>
+                                    <img src="./images/logos/palacio-small.jpg" />
                                     <div>
-                                        <h3>Palacio de Hierro</h3>
+                                        <h3>Liverpool</h3>
                                         <p>
                                             Evento número: 369341
                                         </p>
@@ -41,7 +41,7 @@
                                 </div>
                             </a>
                         </div>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
         </div>
