@@ -16,7 +16,7 @@ var hero_full_screen = true;                    //If true, the hero section will
 
 //HERO BACKGROUND SLIDESHOW IMAGES
 var slidehow_images = [
-    "/images/covers/door.jpg",
+    "/images/covers/hug.jpeg",
     // "https://lh3.google.com/pw/AM-JKLUEpWI-m3PvIsUTgnBzfAQcIKm6i-PLrNixHINZiztZQ9DqhrMh6WDpZ8PMq6aN9chOWqjqIsQDUT8IFZ0CW9mU4MfZ2U4=w730-h969-no?authuser=0",
     // "https://lh3.google.com/pw/AM-JKLVABpgthSG-FmxFoL3vfZPEjkduRv9dTHp3GGgNX0ICgWviT98VVQzwzXcibmz5yQVRHHfxtHObGeOE2hAHtC0JuykIGr0=w1137-h969-no?authuser=0",
     // "https://lh3.google.com/pw/AM-JKLUWhOoqvxYO_TeX5LXXaAwhyK0budK0MnUv8QkHC_b7EfDmBX9JGb6j1TsoTFZCrIg4h_Zdl3iI7TPZpml3wU3FnEGVbyQ=w1182-h970-no?authuser=0",

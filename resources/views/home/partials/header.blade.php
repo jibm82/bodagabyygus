@@ -6,7 +6,7 @@
                 <div class="col-sm-12">
                     <a href="#hero" class="nav-logo">
                         <!-- <img src="images/logo.png" alt="Neela" /> -->
-                        <span>Jaesy & Jorge</span>
+                        <span>Gaby & Gus</span>
                     </a>
 
                     <!-- BEGIN MAIN MENU -->
@@ -23,7 +23,8 @@
                             </li> --}}
 
                             <li class="dropdown">
-                                <a href="#the-wedding" data-toggle="dropdown" data-hover="dropdown">La boda<b class="caret"></b></a>
+                                <a href="#the-wedding" data-toggle="dropdown" data-hover="dropdown">La boda<b
+                                        class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#the-wedding">Invitación</a></li>
                                     <li><a href="#location">Ceremonia y Recepción</a></li>
@@ -35,7 +36,8 @@
                             <li><a href="#giftregistry">Mesa de regalos</a></li>
 
                             <li class="dropdown">
-                                <a href="#transportation" data-toggle="dropdown" data-hover="dropdown">Campeche<b class="caret"></b></a>
+                                <a href="#transportation" data-toggle="dropdown" data-hover="dropdown">Campeche<b
+                                        class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#transportation">Transporte</a></li>
                                     <li><a href="#lodging">Hospedaje</a></li>
