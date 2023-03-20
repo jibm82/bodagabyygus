@@ -98,9 +98,9 @@
             </div>
         </section>
 
+        @include('home.partials.agenda')
         @include('home.partials.invite')
         @include('home.partials.location')
-        @include('home.partials.agenda')
         @include('home.partials.dress-code')
         @include('home.partials.weeding-gifts')
         @include('home.partials.transportation')
