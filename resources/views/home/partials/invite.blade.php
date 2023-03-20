@@ -29,7 +29,8 @@
                 </div>
                 <h4>Celebramos</h4>
                 <h5>
-                    Boda - Sábado 16
+                    Boda - Sábado 16 <br />
+                    <b>(Evento solo adultos)</b>
                     {{-- <small>17 hrs</small> --}}
                 </h5>
             </div>

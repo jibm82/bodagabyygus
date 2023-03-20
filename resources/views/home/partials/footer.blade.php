@@ -1,7 +1,7 @@
 <!-- BEGIN FOOTER -->
 <footer id="footer-onepage" class="bg-color">
     <div class="footer-image-container">
-        <img src="images/slideshow/walking3.jpg"/>
+        <img src="images/covers/seeyousoon.jpg" />
         <div class="overlay"></div>
     </div>
     {{-- <section id="footer-image" class="parallax-background bg-color-overlay">
@@ -22,9 +22,9 @@
     <div class="footer-widget-area">
         <div class="container">
             <div class="footer-logo">
-                Jaesy<br>
+                Gaby<br>
                 <small>&</small><br>
-                Jorge
+                Gus
             </div>
         </div>
     </div>
