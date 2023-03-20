@@ -365,14 +365,14 @@ h1, h2, h3, h4, h5, h6 {
     #wedding-details .icon-wrapper i {
         font-size: 30pt;
     }
-    #wedding-details h4 {
+    .wedding-details h4 {
         font-size: 22pt;
         margin-bottom: 20px;
     }
 }
 
 @media (min-width: 992px) {
-    #wedding-details h4 {
+    .wedding-details h4 {
         align-items: center;
         display: flex;
         font-size: 32pt;
@@ -426,4 +426,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .small-date {
     font-size: 4rem;
+}
+
+.wedding-details ,
+.wedding-details h4,
+.wedding-details h5,
+.text-white {
+    color: #fff !important;
+}
+
+.wedding-details .fa {
+    font-size: 50pt;
 }

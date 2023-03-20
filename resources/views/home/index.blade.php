@@ -98,7 +98,7 @@
             </div>
         </section>
 
-        @include('home.partials.agenda')
+        {{-- @include('home.partials.agenda') --}}
         @include('home.partials.invite')
         @include('home.partials.location')
         @include('home.partials.dress-code')
