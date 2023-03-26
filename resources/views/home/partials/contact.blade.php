@@ -8,7 +8,7 @@
                 <div class="form-wrapper flowers neela-style">
                     <h1 class="section-title">Confirma tu asistencia</h1>
 
-                    <form id="phone-validation-form" method="post" action="{{ route('validate') }}">
+                    <form id="phone-validation-form" method="post" action="/validate">
                         <div class="form-field form-floating flex-1">
                             <input type="tel" id="phone_validation" placeholder="Celular* (10 dígitos)"
                                 class="form-control required">
