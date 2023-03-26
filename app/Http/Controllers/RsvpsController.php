@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Guest;
 use Exception;
 use Illuminate\Http\Request;
 use Laravel\Lumen\Routing\Controller as BaseController;
@@ -9,74 +10,84 @@ use \TANIOS\Airtable\Airtable as Airtable;
 
 class RsvpsController extends BaseController
 {
-    public function __invoke(Request $request)
+    public function validatePhone(Request $request)
+    {
+        $guest = $this->getGuestByPhone($request);
+
+        if ($guest == null) {
+            return response()->json([
+                'valid' => false,
+            ]);
+        }
+
+        return response()->json([
+            'valid' => true,
+            'name' => $guest->first_name . ' ' . $guest->last_name,
+            'people' => $guest->people,
+        ]);
+
+        // Why I am getting this error "Call to a member function connection() on null"?
+
+    }
+
+    public function confirm(Request $request)
     {
         $data = $this->validate($request, [
             'name' => 'required',
-            'phone' => 'required|digits:10',
+            'phone' => 'required',
             'is_attending' => 'required',
             'icebreaker' => '',
             'after_wedding' => '',
-            'guests_count' => '',
             'message' => 'nullable'
         ]);
 
-        $data['phone'] = preg_replace(
-            '~.*(\d{3})[^\d]{0,7}(\d{3})[^\d]{0,7}(\d{4}).*~',
-            '($1) $2-$3',
-            $data['phone']
-        );
-
-        if($data['is_attending'] == "1") {
+        if ($data['is_attending'] == "1") {
             $data['is_attending'] = true;
-            $data['guests_count'] = intval($data['guests_count']);
         } else {
             $data['is_attending'] = false;
-            $data['guests_count'] = 0;
         }
 
-        if(array_key_exists('icebreaker', $data)) {
+        if (array_key_exists('icebreaker', $data)) {
             $data['icebreaker'] = true;
         } else {
             $data['icebreaker'] = false;
         }
 
-        if(array_key_exists('after_wedding', $data)) {
+        if (array_key_exists('after_wedding', $data)) {
             $data['after_wedding'] = true;
         } else {
             $data['after_wedding'] = false;
         }
 
-        $response = $this->store($data);
+        $response = $this->store($request, $data);
 
-        if($response->id == null) {
-            \Sentry\captureException(
-                new Exception(
-                    $response->error->message,
-                    0,
-                    new Exception(var_export($data, true))
-                )
-            );
-            return response()->json(
-                [
-                    'customError' => 'No se ha podido insertar el registro',
-                ],
-                400
-            );
-        } else {
-            return response()->json([
-                'isAttending' => $data['is_attending'],
-            ]);
-        }
+        return response()->json([
+            'valid' => $response,
+            'isAttending' => $data['is_attending'],
+        ]);
     }
 
-    public function store($data)
+    public function store(Request $request, $data)
     {
-        $airtable = new Airtable([
-            'api_key' => env('AIRTABLE_API_KEY'),
-            'base'    => env('AIRTABLE_BASE_ID')
-        ]);
+        $guest = $this->getGuestByPhone($request);
 
-        return $airtable->saveContent( 'Asistentes', $data );
+        if ($guest != null) {
+            $guest->is_attending = $data['is_attending'];
+            $guest->icebreaker = $data['icebreaker'];
+            $guest->after_wedding = $data['after_wedding'];
+            $guest->message = $data['message'];
+            $guest->save();
+            return true;
+        }
+
+        return false;
+    }
+
+    private function getGuestByPhone(Request $request)
+    {
+        return Guest::where('phone', $request->get('phone'))
+            ->where('phone', '!=', '')
+            ->where('country_code', $request->get('country_code'))
+            ->first();
     }
 }

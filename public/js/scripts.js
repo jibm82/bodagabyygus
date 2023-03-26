@@ -903,9 +903,8 @@ var Neela;
         },
 
         objEvents: function () {
-
             //Fix buttons width (round to integer)
-            $(".btn").each(function () {
+            $(".btn:not(.btn-fixed)").each(function () {
                 var $btn = $(this);
                 var w = $btn.width();
                 var xtr = 2;

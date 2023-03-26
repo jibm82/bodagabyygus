@@ -23,9 +23,9 @@ return new class extends Migration
             $table->string('phone')->nullable(true);
             $table->string('category');
             $table->boolean('foreigner')->default(false);
-            $table->boolean('ice_breaker')->default(false);
-            $table->boolean('wedding')->default(false);
-            $table->boolean('after_party')->default(false);
+            $table->boolean('icebreaker')->nullable(true);
+            $table->boolean('is_attending')->nullable(true);
+            $table->boolean('after_wedding')->nullable(true);
             $table->text('message')->nullable(true);
             $table->timestamps();
         });

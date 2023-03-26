@@ -56,10 +56,12 @@
 
     <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet" />
+    <link href="css/custom2.css" rel="stylesheet" />
 
     <!-- Modernizr JS -->
     <script src="js/modernizr-3.6.0.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="js/modernizr-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -139,6 +141,7 @@
     <!-- Template Scripts -->
     <script src="js/variables.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/contact.js"></script>
 
 </body>
 

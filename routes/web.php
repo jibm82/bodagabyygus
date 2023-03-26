@@ -14,4 +14,5 @@
 */
 
 $router->get('/', ['uses' => 'Controller']);
-$router->post('/rsvp', ['uses' => 'RsvpsController', 'as' => 'rsvp']);
+$router->post('/validate', ['uses' => 'RsvpsController@validatePhone', 'as' => 'validate']);
+$router->post('/rsvp', ['uses' => 'RsvpsController@confirm', 'as' => 'rsvp']);
