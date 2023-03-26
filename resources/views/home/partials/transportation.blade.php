@@ -61,7 +61,7 @@
                     <div class="tab-pane fade show active" id="transportation-option-1" role="tabpanel"
                         aria-labelledby="transportation-option-1-tab">
                         <div class="row mt-4 gx-4">
-                            <div class="col col-md-6 text-center">
+                            <div class="col-12 col-md-6 text-center">
                                 <h4 class="text-center">
                                     <i class="fa fa-plane"></i>
                                 </h4>
@@ -70,7 +70,7 @@
                                     directos: Aeroméxico, Viva Aerobus, y Volaris.
                                 </div>
                             </div>
-                            <div class="col col-md-6 mt-4 mt-md-0 text-center">
+                            <div class="col-12 col-md-6 mt-4 mt-md-0 text-center">
                                 <h4 class="text-center">
                                     <i class="fa fa-bus"></i>
                                 </h4>
