@@ -90,6 +90,8 @@
                         <p>
                             Familia y amigos, nos encantaría compartir con ustedes este día tan especial
                             para nosotros y que nos sigan acompañando en esta increíble historia.
+                        </p>
+                        <p>
                             Aquí encontrarán toda la información necesaria de nuestra boda,
                             desde las fechas, lugares, hoteles y todos los detalles para que se
                             preparen a celebrar con nosotros.
