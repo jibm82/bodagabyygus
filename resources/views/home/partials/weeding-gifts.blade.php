@@ -13,13 +13,14 @@
 
                     <li id="gift-list" data-animation-direction="from-bottom" data-animation-delay="300">
                         <div class="neela-style">
-                            <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/50849838" target="_blank">
+                            <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51164166" target="_blank">
                                 <div class="gift-registry-card-info">
                                     <img src="./images/logos/liverpool.png" />
                                     <div>
                                         <h3>Liverpool</h3>
                                         <p>
-                                            Evento número: 50849838
+                                            Evento número:
+                                            <span class="underline">51164166</span>
                                         </p>
                                     </div>
                                 </div>
@@ -47,5 +48,5 @@
         </div>
     </div>
 </section>
-<section id="after-giftregistry"></section>
+{{-- <section id="after-giftregistry"></section> --}}
 <!-- END WEDDING GIFTS SECTION -->

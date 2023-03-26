@@ -222,11 +222,29 @@
 
         <div class="row transportation-tip">
             <div class="col-lg-8 mx-auto fs-6">
-                <h5>Tip</h5>
+                <h5 class="travel-tip-header">Tip</h5>
                 <p class="text-center">
                     Si son un grupo de 10 o más personas, pueden conseguir un mejor precio cotizando
                     en los siguientes enlaces.
                 </p>
+
+                <ul class="text-center">
+                    <li>
+                        <a target="_blank" href="https://cms.volaris.com/es/informacion-util/viajes-en-grupo/">
+                            Volaris
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.vivaaerobus.com/es-mx/servicios/viva-grupos">
+                            Viva Aerobus
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://aeromexico.com/es-mx/informacion-de-vuelos/viajes-en-grupo">
+                            AeroMexico
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>

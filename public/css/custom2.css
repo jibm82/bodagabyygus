@@ -17,3 +17,30 @@
 .submit_form{
     width: 200px;
 }
+
+.transportation-tip {
+    margin-top: 80px;
+}
+
+.transportation-tip h5 {
+    font-size: 20pt;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.transportation-tip p {
+    /* font-size: 18pt; */
+}
+
+.transportation-tip ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.transportation-tip ul a {
+    text-decoration: underline
+}
+
+.underline {
+    text-decoration: underline;
+}

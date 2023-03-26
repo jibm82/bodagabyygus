@@ -188,12 +188,6 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-#after-giftregistry {
-    background: #fff;
-    height: 200px;
-    width: 100%;
-}
-
 .gift-registry-card-info {
   display: flex;
   justify-content: center;
@@ -442,19 +436,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .wedding-gifts li {
     margin-bottom: 300px
-}
-
-.transportation-tip {
-    margin-top: 80px;
-}
-
-.transportation-tip h5 {
-    font-size: 40pt;
-    text-align: center;
-}
-
-.transportation-tip p {
-    font-size: 18pt;
 }
 
 #lodging .section-title {

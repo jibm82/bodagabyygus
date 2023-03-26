@@ -104,7 +104,8 @@
                     </li>
 
                     <li class="mt-4 fw-bold">
-                        <a href="https://www.airbnb.mx/wishlists/1054601796?s=13" target="_blank" class="underlined">
+                        <a href="https://www.airbnb.mx/wishlists/v/1263052413?s=67&unique_share_id=bc980e8a-3567-48ef-8e91-c0fec6ea17ed"
+                            target="_blank" class="underlined">
                             Recomendados de AirBnb - Boda Gaby & Gus
                         </a>
                     </li>
