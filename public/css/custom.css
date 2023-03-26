@@ -1,9 +1,9 @@
 :root {
-  /* --custom-primary-color: #8eaeba; */
+  /* --custom-primary-color: #7e9fcd; */
   /* --custom-primary-color: #6B7D77;
   --custom-secondary-color: #B5C1B0; */
-  --custom-primary-color: #055864;
-  --custom-secondary-color: #026c7c;
+  --custom-primary-color: #007AA7;
+  --custom-secondary-color: #763500;
 }
 
 /* Root elements */
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .arrow-line {
   height: 1px;
-  background-color: #8eaeba;
+  background-color: #7e9fcd;
   flex: 1;
 }
 

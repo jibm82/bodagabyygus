@@ -43,7 +43,7 @@ var countdown_end_msg = "Event Started!";       //Message to display when the co
 
 //GOOGLE MAP VARIABLES
 var map_canvas_id = "map_canvas";               //The HTML "id" of the map canvas
-var map_color = "#8eaeba";                      //Google map color
+var map_color = "#7e9fcd";                      //Google map color
 var map_initial_zoom = 10;                      //The initial zoom when Google map loads
 var map_initial_latitude = 19.841612;           //Google map initial Latitude. If "null", the latitude of the first marked will be used
 var map_initial_longitude = -90.504570;        //Google map initial Longitude. If "null", the longitude of the first marked will be used
