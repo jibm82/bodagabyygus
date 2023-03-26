@@ -87,7 +87,6 @@ class RsvpsController extends BaseController
     {
         return Guest::where('phone', $request->get('phone'))
             ->where('phone', '!=', '')
-            ->where('country_code', $request->get('country_code'))
             ->first();
     }
 }

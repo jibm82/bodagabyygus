@@ -6,10 +6,6 @@
     flex: 1 1 0%;
 }
 
-#country_code {
-    width: 150px;
-}
-
 .hidden {
     display: none;
 }

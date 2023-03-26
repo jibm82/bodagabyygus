@@ -9,22 +9,11 @@
                     <h1 class="section-title">Confirma tu asistencia</h1>
 
                     <form id="phone-validation-form" method="post" action="{{ route('validate') }}">
-                        <div class="flex">
-                            <div class="form-field form-floating">
-                                <select class="form-select" aria-label="Número de invitados"
-                                    id="country_code_validation">
-                                    <option value="52">+52 (MEX)</option>
-                                    <option value=""></option>
-                                </select>
-
-                                <label for="country_code_validation">Código</label>
-                            </div>
-                            <div class="form-field form-floating flex-1">
-                                <input type="tel" id="phone_validation" placeholder="Celular* (10 dígitos)"
-                                    class="form-control required">
-                                <label for="phone_validation">Celular*</label>
-                                <div class="invalid-feedback"></div>
-                            </div>
+                        <div class="form-field form-floating flex-1">
+                            <input type="tel" id="phone_validation" placeholder="Celular* (10 dígitos)"
+                                class="form-control required">
+                            <label for="phone_validation">Celular*</label>
+                            <div class="invalid-feedback"></div>
                         </div>
 
                         <div class="center" id="validate-phone-container">
@@ -34,7 +23,6 @@
 
                     <form id="form-rsvp" method="post" action="#" x-data="{ isAttending: null }" class="hidden">
                         <input type="hidden" name="phone" id="phone" value="">
-                        <input type="hidden" name="country_code" id="country_code" value="">
 
                         <div class="form-field form-floating">
                             <input type="text" name="name" id="name" placeholder="Nombre*"
