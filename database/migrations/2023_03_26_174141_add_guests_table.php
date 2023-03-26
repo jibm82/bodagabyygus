@@ -26,7 +26,7 @@ return new class extends Migration
             $table->boolean('ice_breaker')->default(false);
             $table->boolean('wedding')->default(false);
             $table->boolean('after_party')->default(false);
-            $table->text('message');
+            $table->text('message')->nullable(true);
             $table->timestamps();
         });
     }
