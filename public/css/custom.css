@@ -3,7 +3,7 @@
   /* --custom-primary-color: #6B7D77;
   --custom-secondary-color: #B5C1B0; */
   --custom-primary-color: #007AA7;
-  --custom-secondary-color: #763500;
+  --custom-secondary-color: #3FAEDE;
 }
 
 /* Root elements */
@@ -128,17 +128,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #the-wedding {
-    background-image: url("https://images.pexels.com/photos/1044320/pexels-photo-1044320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-image: url("https://images.pexels.com/photos/11572548/pexels-photo-11572548.jpeg?cs=srgb&dl=pexels-ti%E1%BB%83u-linh-11572548.jpg&fm=jpg");
-    background-image: url("https://images.pexels.com/photos/2860870/pexels-photo-2860870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-image: url("https://images.pexels.com/photos/1137532/pexels-photo-1137532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("https://images.pexels.com/photos/1078565/pexels-photo-1078565.jpeg");
   }
   @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6/2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
     #the-wedding {
-      background-image: url("https://images.pexels.com/photos/1044320/pexels-photo-1044320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-      background-image: url("https://images.pexels.com/photos/11572548/pexels-photo-11572548.jpeg?cs=srgb&dl=pexels-ti%E1%BB%83u-linh-11572548.jpg&fm=jpg");
-      background-image: url("https://images.pexels.com/photos/2860870/pexels-photo-2860870.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-      background-image: url("https://images.pexels.com/photos/1137532/pexels-photo-1137532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      background-image: url("https://images.pexels.com/photos/1078565/pexels-photo-1078565.jpeg");
     }
   }
 
@@ -263,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer-onepage .footer-widget-area:before {
-    background-color: var(--custom-secondary-color);
+    background-color: var(--custom-primary-color);
 }
 
 .timeline_footer .punchline {
@@ -340,7 +334,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-section-title.section-title {
-    margin: 60px auto;
+    margin: 60px auto 0px;
 }
 
 .wedding-gifts li {

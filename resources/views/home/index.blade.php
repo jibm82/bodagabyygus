@@ -106,6 +106,7 @@
         @include('home.partials.invite')
         {{-- @include('home.partials.location') --}}
         {{-- @include('home.partials.dress-code') --}}
+        <div style="height: 120px; background: white"></div>
         @include('home.partials.transportation')
         @include('home.partials.lodging')
         @include('home.partials.blog')

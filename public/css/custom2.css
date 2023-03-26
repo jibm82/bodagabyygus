@@ -44,3 +44,12 @@
 .underline {
     text-decoration: underline;
 }
+
+body {
+    color: #364954;
+}
+
+.bg-color-overlay::before {
+    background-color: #000;
+    opacity: 0.35;
+}
