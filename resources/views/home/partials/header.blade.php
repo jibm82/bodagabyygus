@@ -26,14 +26,12 @@
                                 <a href="#the-wedding" data-toggle="dropdown" data-hover="dropdown">La boda<b
                                         class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#the-wedding">Invitación</a></li>
-                                    <li><a href="#location">Ceremonia y Recepción</a></li>
-                                    <li><a href="#wedding-details">Agenda</a></li>
-                                    <li><a href="#dress-code">Código de vestimenta</a></li>
+                                    {{-- <li><a href="#the-wedding">Invitación</a></li> --}}
+                                    {{-- <li><a href="#location">Ceremonia y Recepción</a></li> --}}
+                                    <li><a href="#the-wedding">Agenda</a></li>
+                                    {{-- <li><a href="#dress-code">Código de vestimenta</a></li> --}}
                                 </ul>
                             </li>
-
-                            <li><a href="#giftregistry">Mesa de regalos</a></li>
 
                             <li class="dropdown">
                                 <a href="#transportation" data-toggle="dropdown" data-hover="dropdown">Campeche<b
@@ -44,6 +42,8 @@
                                     <li><a href="#blog">¿Qué hacer?</a></li>
                                 </ul>
                             </li>
+
+                            <li><a href="#giftregistry">Mesa de regalos</a></li>
 
                             <li><a href="#rsvp">Confirmar Asistencia</a></li>
                         </ul>
