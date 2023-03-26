@@ -15,7 +15,9 @@
 
                     <div class="hero-title light" data-animation-direction="fade" data-animation-delay="1000">
                         <span class="small-date">15</span>
-                        · 16 ·
+                        ·
+                        <span class="small-date">16</span>
+                        ·
                         <span class="small-date">17</span>
                     </div>
 
