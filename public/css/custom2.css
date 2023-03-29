@@ -49,3 +49,33 @@ body {
     background-color: #000;
     opacity: 0.35;
 }
+
+.insta-btn {
+    align-items: center;
+    background-color: #cb8b9d;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin-top: 14px;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+.insta-btn:hover {
+    background-color: #cb8b9d;
+    color: #fff;
+}
+
+
+@media(min-width: 992px) {
+    .insta-btn {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .insta-btn span {
+        display: none;
+    }
+}

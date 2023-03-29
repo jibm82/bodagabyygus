@@ -48,6 +48,12 @@
                             <li><a href="#rsvp">Confirmar Asistencia</a></li>
                         </ul>
 
+                        <a href="https://www.instagram.com/bodagabyygus/" target="_blank" class="insta-btn">
+                            <div>
+                                <i class="fab fa-instagram"></i> <span>Síguenos</span>
+                            </div>
+                        </a>
+
                         <button id="nav-mobile-btn"><i class="fas fa-bars"></i></button><!-- Mobile menu button -->
                     </nav>
                     <!-- END MAIN MENU -->
