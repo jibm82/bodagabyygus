@@ -60,9 +60,9 @@ var map_markers = [
     },
     {
         "title": "Recepción",
-        "latitude": 19.923523,
-        "longitude": -90.403661,
+        "latitude": 19.8438735,
+        "longitude": -90.5403142,
         "icon": "fas fa-glass-cheers", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
-        "infoWindow": "<b>Ex Hacienda Xtelchel</b><br/>Carretera Campeche - Mérida km. 12<br/>San Francisco de Campeche, Campeche. CP 24087."
+        "infoWindow": "<b>Instituto Campechano</b><br/>C. 10 357, Zona Centro<br/>San Francisco de Campeche, Campeche. CP 24000."
     },
 ];
