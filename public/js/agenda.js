@@ -3,7 +3,7 @@ $(document).on('ready', function() {
         e.preventDefault();
         Swal.fire({
             text: 'Camisa o playera blanca y pantalón o short caqui',
-            imageUrl: 'images/dress-code/dress-code-icebreaker-men.jpg',
+            imageUrl: 'images/dress-code/dress-code-icebreaker-men.webp',
             imageAlt: 'A tall image'
           });
     });
@@ -12,7 +12,7 @@ $(document).on('ready', function() {
         e.preventDefault();
         Swal.fire({
             text: 'Todo blanco',
-            imageUrl: 'images/dress-code/dress-code-icebreaker-women.jpg',
+            imageUrl: 'images/dress-code/dress-code-icebreaker-women.webp',
             imageAlt: 'A tall image'
           });
     });
