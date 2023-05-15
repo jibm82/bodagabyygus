@@ -42,7 +42,15 @@
                 <h5>
                     Boda - Sábado 16 <br />
                     <b>(Evento solo adultos)</b>
-                    {{-- <small>17 hrs</small> --}}
+
+                    <div>
+                        <div style="margin-top: 4px; margin-bottom: 10px;">18:00 hrs</div>
+                        <div>
+                            <a class="btn" href="#location">
+                                Más detalles
+                            </a>
+                        </div>
+                    </div>
                 </h5>
             </div>
 

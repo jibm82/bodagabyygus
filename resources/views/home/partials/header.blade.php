@@ -27,9 +27,9 @@
                                         class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     {{-- <li><a href="#the-wedding">Invitación</a></li> --}}
-                                    {{-- <li><a href="#location">Ceremonia y Recepción</a></li> --}}
                                     <li><a href="#the-wedding">Agenda</a></li>
-                                    {{-- <li><a href="#dress-code">Código de vestimenta</a></li> --}}
+                                    <li><a href="#location">Ceremonia y Recepción</a></li>
+                                    <li><a href="#dress-code">Código de vestimenta</a></li>
                                 </ul>
                             </li>
 

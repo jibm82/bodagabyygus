@@ -169,7 +169,7 @@
                                         opten por colores oscuros.
                                     </p>
                                     <p class="mt-4">
-                                        Por favor, eviten cualquier tono de azul.
+                                        Por favor, eviten cualquier gama de azul.
                                     </p>
                                 </div>
                             </div>
