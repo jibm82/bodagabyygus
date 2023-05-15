@@ -1,4 +1,5 @@
 <!-- BEGIN THE WEDDING SECTION -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <section id="the-wedding" class="parallax-background bg-color-overlay padding-divider-top section-divider-bottom-1">
     <div class="section-divider-top-1 off-section"></div>
     <!-- The class "section-divider-top-1" can also be applied to the tag <section>. In this case, it was added on a new <div> because the tag <section> have all pseudo elements (::after and ::before) in use. -->
@@ -18,7 +19,17 @@
                 <h4>Nos conocemos</h4>
                 <h5>
                     Icebreaker - Viernes 15
-                    {{-- <small>17 hrs</small> --}}
+                    <div>
+                        <div style="margin-top: 4px; margin-bottom: 10px;">17:00 hrs</div>
+                        <div>
+                            <button class="btn" id="dress-code-women-trigger">
+                                Dress code mujeres
+                            </button>
+                            <button class="btn" id="dress-code-men-trigger">
+                                Dress code hombres
+                            </button>
+                        </div>
+                    </div>
                 </h5>
             </div>
 

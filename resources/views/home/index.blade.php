@@ -104,7 +104,7 @@
 
         {{-- @include('home.partials.agenda') --}}
         @include('home.partials.invite')
-        {{-- @include('home.partials.location') --}}
+        @include('home.partials.location')
         {{-- @include('home.partials.dress-code') --}}
         <div style="height: 120px; background: white"></div>
         @include('home.partials.transportation')
@@ -144,6 +144,7 @@
     <!-- Template Scripts -->
     <script src="js/variables.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/agenda.js"></script>
     <script src="js/contact.js"></script>
 
 </body>

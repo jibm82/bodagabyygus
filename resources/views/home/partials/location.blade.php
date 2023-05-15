@@ -18,7 +18,8 @@
                     <div class="info-wrapper" data-animation-direction="from-bottom" data-animation-delay="100">
                         <div class="location-info">
                             <div class="neela-style">
-                                <h4 class="has-icon"><i class="icon-big-church"></i>Ceremonia<small>06:00pm</small></h4>
+                                <h4 class="has-icon"><i class="icon-big-church"></i>Ceremonia<small>18:00 hrs</small>
+                                </h4>
                                 <h5>Iglesia de San Román</h5>
                                 <p>
                                     Calle 10 S/N, Barrio de San Román<br />
@@ -27,12 +28,12 @@
 
                                 <div class="info-map-divider"></div>
 
-                                <h4 class="has-icon"><i
-                                        class="icon-champagne-glasses"></i>Recepción<small>07:00pm</small></h4>
-                                <h5>Ex Hacienda Xtelchel</h5>
+                                <h4 class="has-icon"><i class="icon-champagne-glasses"></i>Recepción<small>19:00
+                                        hrs</small></h4>
+                                <h5>Instituto Campechano (Claustro)</h5>
                                 <p>
-                                    Carretera Campeche - Mérida km. 12<br />
-                                    San Francisco de Campeche, Campeche. CP 24087.
+                                    C. 10 357, Zona Centro<br />
+                                    San Francisco de Campeche, Campeche. CP 24000.
                                 </p>
                             </div>
                         </div>

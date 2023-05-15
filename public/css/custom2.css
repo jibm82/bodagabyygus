@@ -79,3 +79,12 @@ body {
         display: none;
     }
 }
+
+
+.swal2-styled.swal2-confirm {
+    background-color: #7e9fcd !important;
+}
+
+.map-info-container .info-wrapper .location-info, .timeline .description{
+    background: var(--custom-primary-color);
+}
