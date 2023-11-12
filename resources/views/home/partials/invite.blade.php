@@ -62,7 +62,9 @@
                 <h4>Nos la curamos</h4>
                 <h5>
                     Tornaboda - Domingo 17
-                    {{-- <small>11 hrs</small> --}}
+                    <div>
+                        <div style="margin-top: 4px; margin-bottom: 10px;">13:00 hrs</div>
+                    </div>
                 </h5>
             </div>
         </div>

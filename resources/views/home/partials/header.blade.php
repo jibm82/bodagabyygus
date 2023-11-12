@@ -45,7 +45,7 @@
 
                             <li><a href="#giftregistry">Mesa de regalos</a></li>
 
-                            <li><a href="#rsvp">Confirmar Asistencia</a></li>
+                            {{-- <li><a href="#rsvp">Confirmar Asistencia</a></li> --}}
                         </ul>
 
                         <a href="https://www.instagram.com/bodagabyygus/" target="_blank" class="insta-btn">

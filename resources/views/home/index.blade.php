@@ -111,7 +111,7 @@
         @include('home.partials.lodging')
         @include('home.partials.blog')
         @include('home.partials.weeding-gifts')
-        @include('home.partials.contact')
+        {{-- @include('home.partials.contact') --}}
         @include('home.partials.footer')
 
     </div>
